@@ -1,4 +1,4 @@
-package com.poc.newrelicgeneralconcepts.controller.response;
+package com.poc.newrelicgeneralconcepts.person.controller.response;
 
 public record CreatePersonResponse(String id, String name, Long age) {
 

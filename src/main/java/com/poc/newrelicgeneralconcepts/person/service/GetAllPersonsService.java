@@ -1,8 +1,8 @@
-package com.poc.newrelicgeneralconcepts.service;
+package com.poc.newrelicgeneralconcepts.person.service;
 
-import com.poc.newrelicgeneralconcepts.controller.response.GetAPersonResponse;
-import com.poc.newrelicgeneralconcepts.domain.Person;
-import com.poc.newrelicgeneralconcepts.repository.PersonRepository;
+import com.poc.newrelicgeneralconcepts.person.controller.response.GetAPersonResponse;
+import com.poc.newrelicgeneralconcepts.person.domain.Person;
+import com.poc.newrelicgeneralconcepts.person.repository.PersonRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

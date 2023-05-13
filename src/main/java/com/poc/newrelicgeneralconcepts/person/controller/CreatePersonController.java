@@ -1,8 +1,8 @@
-package com.poc.newrelicgeneralconcepts.controller;
+package com.poc.newrelicgeneralconcepts.person.controller;
 
-import com.poc.newrelicgeneralconcepts.controller.request.CreatePersonRequest;
-import com.poc.newrelicgeneralconcepts.controller.response.CreatePersonResponse;
-import com.poc.newrelicgeneralconcepts.service.CreatePersonService;
+import com.poc.newrelicgeneralconcepts.person.controller.request.CreatePersonRequest;
+import com.poc.newrelicgeneralconcepts.person.controller.response.CreatePersonResponse;
+import com.poc.newrelicgeneralconcepts.person.service.CreatePersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

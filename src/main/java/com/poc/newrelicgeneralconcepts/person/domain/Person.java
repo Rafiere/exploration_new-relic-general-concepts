@@ -1,4 +1,4 @@
-package com.poc.newrelicgeneralconcepts.domain;
+package com.poc.newrelicgeneralconcepts.person.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

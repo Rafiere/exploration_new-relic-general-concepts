@@ -1,4 +1,4 @@
-package com.poc.newrelicgeneralconcepts.domain;
+package com.poc.newrelicgeneralconcepts.tag.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -10,17 +10,17 @@ import java.util.UUID;
 @Entity
 @NoArgsConstructor
 @Getter
-public class Car {
+public class Tag {
 
 	@Id private String id;
-	private String model;
+	private String name;
 
-	public static Car of(String model){
-		return new Car(model);
+	public static Tag of(String name){
+		return new Tag(name);
 	}
 
-	private Car(String model){
+	private Tag(String name){
 		this.id = UUID.randomUUID().toString();
-		this.model = model;
+		this.name = name;
 	}
 }

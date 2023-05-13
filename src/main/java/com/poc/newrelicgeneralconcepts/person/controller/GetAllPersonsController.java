@@ -1,7 +1,7 @@
-package com.poc.newrelicgeneralconcepts.controller;
+package com.poc.newrelicgeneralconcepts.person.controller;
 
-import com.poc.newrelicgeneralconcepts.controller.response.GetAPersonResponse;
-import com.poc.newrelicgeneralconcepts.service.GetAllPersonsService;
+import com.poc.newrelicgeneralconcepts.person.controller.response.GetAPersonResponse;
+import com.poc.newrelicgeneralconcepts.person.service.GetAllPersonsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
